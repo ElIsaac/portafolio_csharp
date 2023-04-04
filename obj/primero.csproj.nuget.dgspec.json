@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/elisaac/dotnetproyects/primero/primero.csproj": {}
+    "/home/isaac/Desktop/portafolio_csharp/primero.csproj": {}
   },
   "projects": {
-    "/home/elisaac/dotnetproyects/primero/primero.csproj": {
+    "/home/isaac/Desktop/portafolio_csharp/primero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elisaac/dotnetproyects/primero/primero.csproj",
+        "projectUniqueName": "/home/isaac/Desktop/portafolio_csharp/primero.csproj",
         "projectName": "primero",
-        "projectPath": "/home/elisaac/dotnetproyects/primero/primero.csproj",
-        "packagesPath": "/home/elisaac/.nuget/packages/",
-        "outputPath": "/home/elisaac/dotnetproyects/primero/obj/",
+        "projectPath": "/home/isaac/Desktop/portafolio_csharp/primero.csproj",
+        "packagesPath": "/home/isaac/.nuget/packages/",
+        "outputPath": "/home/isaac/Desktop/portafolio_csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/elisaac/.nuget/NuGet/NuGet.Config"
+          "/home/isaac/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
