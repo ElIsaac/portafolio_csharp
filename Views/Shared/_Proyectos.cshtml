@@ -1,9 +1,5 @@
 @model IEnumerable<ProyectoViewModel>
-@if(Model!=null){
-    <div class="text-center" style="padding-top: 6rem;">
-        <h1>Trabajos</h1>
-        <p>mis trabajos mas recientes</p>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var proyecto in Model)
         {
             <div class="col">
@@ -18,8 +14,3 @@
             </div>
         }
         </div>
-        
-    </div>
-
-    
-}
