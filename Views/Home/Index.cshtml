@@ -1,4 +1,4 @@
-﻿
+﻿@model HomeIndexViewModel
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -9,4 +9,31 @@
 <partial name="_Habilidades"/>
 
 
+@if(Model.Proyectos!=null){
+    <div class="text-center" style="padding-top: 6rem;">
+        <h1>Trabajos</h1>
+        <p>mis trabajos mas recientes</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var proyecto in Model.Proyectos)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <img class="card-img-top" src="@proyecto.ImagenURL" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">@proyecto.Titulo</h5>
+                        <p class="card-text">@proyecto.Descripcion</p>
+                        <a href="@proyecto.Link" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        }
+        </div>
 
+        
+    </div>
+
+
+
+
+    
+}
