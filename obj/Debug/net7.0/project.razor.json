@@ -18685,6 +18685,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/isaac/Desktop/portafolio_csharp/Views/Home/_Proyectos.cshtml",
+      "TargetPath": "Views\\Home\\_Proyectos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/isaac/Desktop/portafolio_csharp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
